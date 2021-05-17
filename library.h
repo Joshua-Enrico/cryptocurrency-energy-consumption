@@ -47,6 +47,7 @@ void (*check_if_match2(vars_t *vars))(vars_t *vars);
 void world(vars_t *vars);
 void USA(vars_t *vars);
 void china(vars_t *vars);
+void list(vars_t *vars);
 
 
 char **tokenizer(char *buffer, char *delimiter);

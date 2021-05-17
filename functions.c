@@ -90,10 +90,12 @@ void china(vars_t *vars)
         check_if_match2(vars);
 }
 
-void china(vars_t *vars)
+void list(vars_t *vars)
 {
-    printf("Countries aviable");
+	UNUSED(vars);
+    printf("Countries aviables\n");
+    printf("USA, china, world\n");
+	
     printf("\n");
-    printf("Countries aviable");
-
+    printf("Crypto aviables\n");
 }

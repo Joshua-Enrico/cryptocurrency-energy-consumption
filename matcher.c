@@ -6,6 +6,7 @@ void (*check_if_match(vars_t *vars))(vars_t *vars)
         {"USA", USA},
         {"world", world},
         {"china", china},
+        {"list", list},
 		{NULL, NULL}};
 
     if(vars->array_tokens[0] == NULL)
@@ -30,6 +31,8 @@ void (*check_if_match2(vars_t *vars))(vars_t *vars)
 	builtins_t check[] = {
         {"USA", USA},
         {"world", world},
+        {"china", china},
+        {"list", list},
 		{NULL, NULL}};
 
     if(vars->array_tokens[1] == NULL)

@@ -10,7 +10,7 @@ int main(int argc __attribute__((unused)), char *argv[] __attribute__((unused)))
     printf("\n");
     printf("Usage: 'crypto1' 'crypto2' or 'crypto' 'contry' \n");
     printf("\n");
-    printf("Run: Coin list or Countries list to see the available currencies and countries\n");
+    printf("Run: list to see the available currencies and countries\n");
     printf("$ ");
 
     while (getline(&(vars.buffer), &len_buffer, stdin) != -1)
